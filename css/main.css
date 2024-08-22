@@ -1,0 +1,53 @@
+.main {
+  max-width: 75rem;
+  padding: 2.5rem 1.25rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6.25rem;
+  align-items: center;
+}
+.main h1 {
+  font-size: 4.5rem;
+  line-height: 5rem;
+  position: relative;
+}
+.main h1::before {
+  content: '';
+  display: block;
+  width: 8.125rem;
+  height: 6.25rem;
+  background: url('/imagens/detalhe.svg') no-repeat center;
+  position: absolute;
+  top: -0.9375rem;
+  left: -2.5rem;
+  z-index: -1;
+}
+.main p {
+  font-size: 1.5rem;
+  color: #000080;
+}
+@media (max-width: 1000px) {
+  .main h1{
+    font-size: 3rem;
+    line-height: 3.2rem;
+  }
+}
+@media (max-width: 800px) {
+  .main {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .main h1{
+    font-size: 2.8rem;
+    line-height: 2.9rem;
+  }
+  .main h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0px;
+  }
+  .main p {
+    font-size: 1.0rem;
+  }
+}
