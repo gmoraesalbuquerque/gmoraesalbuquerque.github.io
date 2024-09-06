@@ -1,0 +1,20 @@
+footer {
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+.container-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  padding: 50px 0 50px 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  color: blue;
+  text-align: center;
+}
+.footer-final p {
+  text-align: center;
+  color: red;
+  
+}

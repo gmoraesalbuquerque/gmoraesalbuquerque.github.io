@@ -1,4 +1,4 @@
-.container {
+.container-header {
   background-color: #f1f1f1;
 }
 .header{
@@ -33,7 +33,6 @@
   padding: 0.625rem 1.25rem;
   text-decoration: none;
   color: blue;
-  background-color: beige;
   border-radius: 3.125rem;
 
 }
